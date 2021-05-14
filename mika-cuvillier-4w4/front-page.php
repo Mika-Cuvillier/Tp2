@@ -43,7 +43,7 @@ get_header();
 							</section>
 						<?php endif;?>
 						<h2><?php echo $tPropriété['typeCours'] ?></h2>
-						<section <?php echo class_composant($tPropriété) ?>>
+						<section <?php echo class_composant($tPropriété['typeCours']) ?>>
 					<?php endif;?>	
 					<?php 
 					if (in_array($tPropriété['typeCours'], ['Web', 'Jeu', 'spécifique'])) : 
@@ -89,7 +89,7 @@ function convertir_tableau(&$tPropriété){
 
 function class_composant($typeCours){
 	if(in_array($typeCours,['Web', 'Jeu', 'spécifique'])){
-		return 'class="carrousel"';
+		return 'class="slider"';
 	}
 	elseif($typeCours == 'Projet'){
 		return 'class="galerie"';
