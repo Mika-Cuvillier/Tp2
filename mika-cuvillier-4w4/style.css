@@ -1298,6 +1298,10 @@ body.home .galerie {
       align-self: center;
 }
 
+body.home .flip-card-back {
+  background-color: #2791F5;
+}
+
 body.home::after {
   position: absolute;
   width: 100vw;
@@ -1947,7 +1951,10 @@ Les blocs de cours
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #aaa;
+  border: 1px solid black;
+  border-radius: 15%;
+  background-color: #87cefa;
+  margin-right: 15px;
 }
 
 .slider .slide__conteneur .slide {

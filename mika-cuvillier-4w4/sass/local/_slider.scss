@@ -64,7 +64,10 @@ $point_de_rupture_desktop : 1400px;
         display : flex;
         justify-content: center;
         align-items: center;
-        border : 1px solid #aaa;
+        border : 1px solid black;
+        border-radius: 15%;
+        background-color:#87cefa ;
+        margin-right: 15px;
        
         .slide {
             width : 90%;
@@ -72,6 +75,7 @@ $point_de_rupture_desktop : 1400px;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+
 
             .img{
                 display : block;}
