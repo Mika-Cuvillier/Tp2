@@ -1287,6 +1287,17 @@ body.home {
   background-color: transparent;
 }
 
+body.home .galerie {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 body.home::after {
   position: absolute;
   width: 100vw;
@@ -1304,8 +1315,8 @@ body.home::after {
 
 @media (min-width: 800px) {
   body.home::after {
-    -webkit-clip-path: polygon(80% 0, 100% 0, 100% 100%, 50% 100%);
-            clip-path: polygon(80% 0, 100% 0, 100% 100%, 50% 100%);
+    -webkit-clip-path: polygon(0 45%, 70% 45%, 52% 0, 100% 50%, 51% 100%, 70% 56%, 0 55%);
+            clip-path: polygon(0 45%, 70% 45%, 52% 0, 100% 50%, 51% 100%, 70% 56%, 0 55%);
   }
 }
 

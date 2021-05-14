@@ -12,6 +12,11 @@ body.home {
     height: 400vh;
     font-family: $font__accueil;
     background-color: transparent;
+    .galerie{
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-self: center;
+    }
 }
 
 body.home::after {
@@ -28,8 +33,7 @@ body.home::after {
     clip-path: polygon( 100% 90%, 100% 100%,  70% 100%);
     background-color:#999900;
     @include media-desktop {
-        clip-path: polygon(80% 0, 100% 0, 100% 100%, 50% 100%);
-    
+        clip-path: polygon(0 45%, 70% 45%, 52% 0, 100% 50%, 51% 100%, 70% 56%, 0 55%);
        // background: linear-gradient(90deg, rgb(236, 85, 9) 0%, rgba(87, 111, 182, 0.804) 51%, rgb(12, 33, 129) 100%);
     }
 
