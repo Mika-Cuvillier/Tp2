@@ -1769,7 +1769,7 @@ Les blocs de cours
 .bloc article a, .bloc article a:-webkit-any-link, .bloc article a:visited, .bloc article a:hover {
   display: block;
   text-align: center;
-  font-size: clamp(1rem, -0.875rem + 8.333vw, 3rem);
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 2rem);
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -1778,7 +1778,7 @@ Les blocs de cours
 .bloc article a, .bloc article a:-moz-any-link, .bloc article a:visited, .bloc article a:hover {
   display: block;
   text-align: center;
-  font-size: clamp(1rem, -0.875rem + 8.333vw, 3rem);
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 2rem);
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -1787,7 +1787,7 @@ Les blocs de cours
 .bloc article a, .bloc article a:any-link, .bloc article a:visited, .bloc article a:hover {
   display: block;
   text-align: center;
-  font-size: clamp(1rem, -0.875rem + 8.333vw, 3rem);
+  font-size: clamp(1rem, -0.875rem + 8.333vw, 2rem);
   text-decoration: none;
   font-weight: bold;
   color: black;
@@ -1995,8 +1995,14 @@ Les blocs de cours
           align-items: center;
 }
 
+.slider .slide__conteneur .slide .slide__info p {
+  color: black;
+}
+
 .slider .slide__conteneur .slide .slide__info a {
   text-align: center;
+  color: black;
+  font-size: 1.6rem;
 }
 
 /* ---------------------------------------------------------------

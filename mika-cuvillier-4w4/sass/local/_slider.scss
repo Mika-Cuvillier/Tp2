@@ -87,8 +87,14 @@ $point_de_rupture_desktop : 1400px;
                 justify-content: space-between;
                 align-items : center;
 
+                p{
+                    color: black;
+                }
+
                 a {
                     text-align: center;
+                    color: black;
+                    font-size: 1.6rem;
                 }
             }
 
