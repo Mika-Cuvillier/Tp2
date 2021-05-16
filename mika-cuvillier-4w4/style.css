@@ -1299,7 +1299,7 @@ body.home .galerie {
 }
 
 body.home .flip-card-back {
-  background-color: #2791F5;
+  background-color: #999900;
 }
 
 body.home::after {
@@ -1921,7 +1921,7 @@ Les blocs de cours
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 600vw;
+  width: 500vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -1966,9 +1966,9 @@ Les blocs de cours
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2003,6 +2003,8 @@ Les blocs de cours
   text-align: center;
   color: black;
   font-size: 1.6rem;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* ---------------------------------------------------------------

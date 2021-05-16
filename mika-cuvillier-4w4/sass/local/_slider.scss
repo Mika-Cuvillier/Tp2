@@ -50,7 +50,7 @@ $point_de_rupture_desktop : 1400px;
 
 .slider {
     display : flex;
-    width : 600vw;
+    width : 500vw;
     // height : 10vw;
     flex-direction : row;
     flex-wrap: nowrap;
@@ -73,7 +73,7 @@ $point_de_rupture_desktop : 1400px;
             width : 90%;
             display : flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
 
 
@@ -95,6 +95,8 @@ $point_de_rupture_desktop : 1400px;
                     text-align: center;
                     color: black;
                     font-size: 1.6rem;
+                    text-decoration: none;
+                    font-weight: bold;
                 }
             }
 
