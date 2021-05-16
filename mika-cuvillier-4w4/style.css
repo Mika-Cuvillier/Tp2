@@ -2166,11 +2166,16 @@ Bouton de contrôle du carrousel
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding-left: 50px;
+}
+
+.site-footer .ligne-footer #custom_html-2, .site-footer .ligne-footer #categories-3 {
+  margin-left: 100px;
 }
 
 @media (min-width: 800px) {
@@ -2180,6 +2185,11 @@ Bouton de contrôle du carrousel
         -ms-flex-direction: row;
             flex-direction: row;
     margin-right: 100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .site-footer .ligne-footer #custom_html-2, .site-footer .ligne-footer #categories-3 {
+    margin-left: 0px;
   }
 }
 

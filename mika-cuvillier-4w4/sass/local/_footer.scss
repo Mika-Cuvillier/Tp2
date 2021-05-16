@@ -7,12 +7,19 @@
     .ligne-footer{
         flex-direction: column;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
         padding-left: 50px;
+        #custom_html-2,#categories-3{
+            margin-left: 100px;
+        }
         @include media-desktop{ 
         flex-direction: row;
         margin-right: 100px;
+        justify-content: space-around;
+        #custom_html-2,#categories-3{
+            margin-left: 0px;
+        }
         }
     }
 }
