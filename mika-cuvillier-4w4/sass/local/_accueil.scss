@@ -108,12 +108,18 @@ body.home::after {
     }
 
 }
-
+// Les nouvelles
 .nouvelles{
     margin: 2% 4% 2% 3%;
+    border: 1px solid black;
     h2{
         color: black;
         padding-bottom: 30px;
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+        color: black;
     }
 }
 .wp-block-image{

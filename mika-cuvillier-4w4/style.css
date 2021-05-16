@@ -1402,11 +1402,18 @@ body.home::after {
 
 .nouvelles {
   margin: 2% 4% 2% 3%;
+  border: 1px solid black;
 }
 
 .nouvelles h2 {
   color: black;
   padding-bottom: 30px;
+  font-size: 1.7rem;
+}
+
+.nouvelles p {
+  font-size: 1.2rem;
+  color: black;
 }
 
 .wp-block-image {
