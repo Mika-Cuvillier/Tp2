@@ -1447,7 +1447,7 @@ body.home::after {
 }
 
 #annonce {
-  background-color: crimson;
+  background-color: #152f7c;
   height: 10vh;
   margin-top: 20px;
   margin-right: 75px;
@@ -1718,6 +1718,9 @@ Les blocs de cours
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -1958,7 +1961,7 @@ Les blocs de cours
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 15%;
   background-color: #87cefa;
   margin-right: 15px;
@@ -2137,7 +2140,9 @@ Bouton de contrôle du carrousel
 }
 
 .archive-description p {
-  color: black;
+  color: crimson;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .site-footer {

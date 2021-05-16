@@ -147,7 +147,7 @@ body.home::after {
 }
 // Annonce du site
 #annonce{
-    background-color: crimson;
+    background-color: $color__link;
     height: 10vh;
     margin-top: 20px;
     margin-right: 75px;
